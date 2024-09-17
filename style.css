@@ -1,3 +1,9 @@
+body {
+    background-color: #eee8d2;
+}
+
+
+
 h1{
     display: flex;
     justify-content: center;
@@ -16,5 +22,46 @@ table, th, td{
     padding-right: 20px;
     border: solid salmon 3px;
     border-collapse: collapse ;
+}
 
+/* tamaño inicial boton*/
+.cambiar-modo{
+    margin: 10px auto;
+    font-size: 14px;
+    font-size: 10px;
+    padding: 5px ;
+    border-radius: 5px;
+    background-color: #509bfd;
+    color: #1d1d1d;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+
+.cambiar-modo:hover{
+    background-color: #a3a369;
+}
+.lista-compras{
+    list-style: none;
+    text-decoration: underline;
+}
+
+.eliminar{
+    margin: 5px;
+    padding: 7px;
+    background-color: red;
+    color: rgb(219, 192, 192);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.eliminar:hover {
+    background-color: rgb(230, 47, 47);
+}
+
+/* modo Oscuro */
+
+.modo-true{
+    background-color: #1d1d1d;
+    color: aliceblue;
 }
